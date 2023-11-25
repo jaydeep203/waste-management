@@ -30,7 +30,7 @@ const Navigation = () => {
       active:false
     },
     {
-      title: "About",
+      title: "About us",
       link:"/about",
       active:false
     },
