@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
+import PickupModal from './components/Modal/PickupModal'
 
 
 
@@ -17,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
+        <PickupModal />
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   )
